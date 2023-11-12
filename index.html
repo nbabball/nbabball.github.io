@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 </head>
 <body style="margin:0">
-    <iframe id="video" src="https://givemereddit.eu/nba/pistons.html" sandbox="allow-scripts allow-same-origin" style="width:100vw; height:100vh"></iframe>
+    <iframe id="video" src="https://givemereddit.eu/nba/pistons.html" sandbox="allow-scripts allow-same-origin allow-presentation" style="width:100vw; height:100vh"></iframe>
     <script>
         let team = prompt("Home team:").toLowerCase();
         document.getElementById("video").src = "http://givemereddit.eu/nba/" + team + ".html"
